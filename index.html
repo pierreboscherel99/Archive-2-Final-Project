@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>4L Trophy - 2022</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- NavigationBar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">ACCUEIL</a>
+    <a href="sponsor.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SPONSOR</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="https://www.4ltrophy.com/" class="w3-bar-item w3-button">4L Trophy</a>
+        <a href="https://enfantsdudesert.org/" class="w3-bar-item w3-button">Les Enfants du Désert</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Slide 1.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>25 ans de 4L Trophy</h3>
+      <p><b>25 ans d'aide humanitaire et de raid dans le désert!</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Slide 2.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Une Aventure à 4 roues</h3>
+      <p><b>Quelque soit le véhicule, on peut faire la différence!</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Slide 3.png" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Changer le Monde</h3>
+      <p><b>Pour les Enfants du Désert!</b></p>    
+    </div>
+  </div>
+
+  <!-- INTRO Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="intro">
+    <h2 class="w3-wide">ACCUEIL</h2>
+    <p class="w3-opacity"><i>Raid 4L Trophy</i></p>
+    <p class="w3-justify">Le Raid 4L Trophy est un raid automobile solidaire destiné aux jeunes de moins de 28 ans et couru exclusivement en Renault 4. Créé par Jean-Jacques Rey en 1997, il est organisé par l'entreprise Desertours en partenariat avec l'École supérieure de commerce de Rennes.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Une Course</p>
+        <img src="UneCourse.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Une Cause</p>
+        <img src="https://enfantsdudesert.org/wp-content/uploads/2017/12/LOGO-EDD-PNG.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Deux Etudiants</p>
+        <img src="Portraits Index.png" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- MAP & COUNTDOWN Section -->
+  <div class="w3-black" id="race">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">LA COURSE</h2>
+      <p class="w3-opacity w3-center"><i>Du 17 au 27 Fevrier 2022!</i></p><br>
+
+         <!-- Please include the MAP Section -->
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-col w3-margin-bottom">
+          <img src="4l-trip.jpeg" alt="Map" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Plan de la Course</b></p>
+            <p class="w3-opacity">Départ le 17 Fevrier 2022!</p>
+            <p>Une course vers le Maroc, à travers la France et l'Espagne soutenue par nos sponsor. Nous avons besoins de vous tout au long de nos 6000km!</p>
+            <a href="sponsor.html" class="w3-button w3-black w3-margin-bottom" onclick="style.display='block'">SPONSOR</a>
+          </div>
+        </div>
+
+         <!-- Please include the COUNTDOWN Section -->
+
+         
+        <div class="w3-col w3-margin-bottom">
+          <div class="w3-container w3-white">
+            <p><b>Top Départ!</b></p>
+
+            <p id="4LTime" class="w3-wide w3-xxlarge w3-center w3-content w3-padding-15" ></p>
+            <script>
+             // date counting down to
+             var countDownDate = new Date("Feb 15, 2022 10:00:00").getTime();
+             //count down every 1 second
+             var x = setInterval(function() {
+             //today's date and time
+             var now = new Date().getTime();  
+             // Find the distance between now and the count down date
+             var distance = countDownDate - now;
+             var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+             var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+             // Output the result in an element with id="4LTime"
+            document.getElementById("4LTime").innerHTML = days + "j " + hours + "h " + minutes + "m " + seconds + "s ";
+             // If the count down is over, write some text 
+             if (distance < 0) {
+             clearInterval(x);
+            document.getElementById("4LTime").innerHTML = "ON EST PARTIT!";} }, 1000);
+            </script>
+
+            <p class="w3-opacity">Plus que quelques semaines!</p>
+            <p>La course commence le 17 Fevrier 2022, n'attendez plus et rejogniez la course en devenant notre sponsor!</p>
+            <a href="sponsor.html" class="w3-button w3-black w3-margin-bottom" onclick="style.display='block'">SPONSOR</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Enfants du Désert -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="enfantsdésert">
+    <h2 class="w3-wide">LES ENFANTS DU DESERT</h2>
+    <p class="w3-opacity"><i>Courir, oui, mais pas pour rien !</i></p>
+    <p class="w3-justify">Depuis 2005 les étudiants du 4L Trophy expriment leur solidarité dans les zones les plus reculées du Maroc en partenariat avec une vingtaine de structures locales. L’objectif est clair : l’accès à l’éducation pour tous les enfants. 
+      Le projet comprend l’acheminement de dons matériels et financiers : offrir un cartable c’est bien, construire une école, c’est encore mieux ! Les Trophistes font les deux ! Des milliers d’objets transportés dans les coffres bondés des 4L (fournitures scolaires, matériel médical et informatique, équipements sportifs, vêtements, jouets etc.) : c’est quelque 30 tonnes chaque année qui profitent à près de 20 000 enfants de la Province d’Errachidia.
+      Les trophistes sont à l’origine de la construction de 30 écoles primaires, d’aménagements pour enfants handicapés, de blocs sanitaires, de puits etc. Chaque participant au 4L Trophy amène sa pierre à ce magnifique édifice !</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>24 000 enfants </p>
+        <img src="EnfantsImageIndex.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>+ 22 salles de classes</p>
+        <img src="AideImageIndex.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p> 42 900 euros de dons</p>
+        <img src="DonmageIndex.png" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+
+ <!-- TEAM! -->
+ <div class="w3-black" id="team">
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <h2 class="w3-wide w3-center">L'EQUIPE</h2>
+    <p class="w3-opacity w3-center"><i>Qui sommes nous ?</i></p><br>
+    <a href="contact.html">
+      <img src="TeamPhotoIndex.jpg" alt="Map" style="width:100%" class="w3-hover-opacity">
+      </a>
+  </div>
+</div>
+
+
+
+  <!-- Contact -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Des questions? Contactez nous!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Paris, France<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +33 xx xx xx xx<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: dorian.delon@essec.edu<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 6000);   
+}
+
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
