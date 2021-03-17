@@ -233,3 +233,63 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 
+
+.vue-1 {
+    position: relative;
+    display: inline-block;
+    height: 90%;
+  }
+  
+  .vue-1 img {
+    cursor: pointer;
+  }
+  
+  .vue-1 .vue-globale-1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    height: 90%;
+    width: 90%;
+  }
+  
+  .vue-1 .avant-1 {height:10%;width:10.5%;
+    position: absolute; top: 48.8%; left: 20%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-1 .avant-1:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-1 .porte-avant{height:13%;width:11%;
+    position: absolute; top: 55%; left: 40%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-1 .porte-avant:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-1 .porte-arriere{height:13%;width:11%;
+    position: absolute; top: 55%; left: 55%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-1 .porte-arriere:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-1 .vitre-arriere{height:13%;width:11%;
+    position: absolute; top: 32%; left: 56%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-1 .vitre-arriere:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-1 .vitre-coffre{height:11%;width:9%;
+    position: absolute; top: 32%; left: 70%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-1 .vitre-coffre:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-1 .coffre-1{height:11%;width:9%;
+    position: absolute; top: 55%; left: 70%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-1 .coffre-1:hover {top:300px; width:200px; max-height: 1000px;}
