@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
 <style>
 body {font-family: "Lato", sans-serif}
@@ -12,13 +13,12 @@ body {font-family: "Lato", sans-serif}
 <body>
 
 <!-- NavigationBar -->
-<div class="w3-top">
+<div class="w3-top" style='position:fixed;display:inline-block'>
   <div class="w3-bar w3-black w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large">ACCUEIL</a>
-    <a href="sponsor.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SPONSOR</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    <div class="w3-dropdown-hover w3-hide-small">
+    <a href="sponsor.html" class="w3-bar-item w3-button w3-padding-large">SPONSOR</a>
+    <div class="w3-dropdown-hover">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="https://www.4ltrophy.com/" class="w3-bar-item w3-button">4L Trophy</a>
