@@ -236,7 +236,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .vue-1 {
     position: relative;
-    display: inline-block;
+    display: block;
     height: 90%;
   }
   
@@ -247,49 +247,146 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
   .vue-1 .vue-globale-1 {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 100px;
     height: 90%;
     width: 90%;
   }
   
   .vue-1 .avant-1 {height:10%;width:10.5%;
-    position: absolute; top: 48.8%; left: 20%; z-index: 1;
+    position: absolute; top: 43.8%; left: 20%; z-index: 1;
     transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
     transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
   
   .vue-1 .avant-1:hover {top:300px; width:200px; max-height: 1000px;}
 
   .vue-1 .porte-avant{height:13%;width:11%;
-    position: absolute; top: 55%; left: 40%; z-index: 1;
+    position: absolute; top: 50%; left: 40%; z-index: 1;
     transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
     transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
   
   .vue-1 .porte-avant:hover {top:300px; width:200px; max-height: 1000px;}
 
   .vue-1 .porte-arriere{height:13%;width:11%;
-    position: absolute; top: 55%; left: 55%; z-index: 1;
+    position: absolute; top: 50%; left: 55%; z-index: 1;
     transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
     transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
   
   .vue-1 .porte-arriere:hover {top:300px; width:200px; max-height: 1000px;}
 
   .vue-1 .vitre-arriere{height:13%;width:11%;
-    position: absolute; top: 32%; left: 56%; z-index: 1;
+    position: absolute; top: 22%; left: 56%; z-index: 1;
     transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
     transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
   
   .vue-1 .vitre-arriere:hover {top:300px; width:200px; max-height: 1000px;}
 
   .vue-1 .vitre-coffre{height:11%;width:9%;
-    position: absolute; top: 32%; left: 70%; z-index: 1;
+    position: absolute; top: 22%; left: 70%; z-index: 1;
     transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
     transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
   
   .vue-1 .vitre-coffre:hover {top:300px; width:200px; max-height: 1000px;}
 
   .vue-1 .coffre-1{height:11%;width:9%;
-    position: absolute; top: 55%; left: 70%; z-index: 1;
+    position: absolute; top: 45%; left: 70%; z-index: 1;
     transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
     transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
   
   .vue-1 .coffre-1:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-2 {
+    position: relative;
+    display: block;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .vue-2 img {
+    cursor: pointer;
+  }
+  
+  .vue-2 .vue-globale-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    height: 90%;
+    width: 90%;
+  }
+
+  .vue-2 .capot{height:40%;width:20%;
+    position: absolute; top: 25%; left: 15%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-2 .capot:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-2 .toit{height:40%;width:10%;
+    position: absolute; top: 25%; left: 55%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-2 .toit:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-2 .coffre-2{height:40%;width:7%;
+    position: absolute; top: 25%; left: 75%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-2 .coffre-2:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-3 {
+    position: relative;
+    display: block;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .vue-3 img {
+    cursor: pointer;
+  }
+  
+  .vue-3 .vue-globale-3 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    margin-bottom: 150px;
+    height: 70%;
+    width: 70%;
+  }
+
+  .vue-3 .vitre-arriere-3{height:18%;width:30%;
+    position: absolute; top: 20%; left: 35%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-3 .vitre-arriere-3:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-3 .coffre-gauche{height:15%;width:8%;
+    position: absolute; top: 48%; left: 34%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-3 .coffre-gauche:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-3 .coffre-droit{height:15%;width:8%;
+    position: absolute; top: 48%; left: 59%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-3 .coffre-droit:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-3 .phare-gauche{height:11%;width:6.5%;
+    position: absolute; top: 51%; left: 24%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-3 .phare-gauche:hover {top:300px; width:200px; max-height: 1000px;}
+
+  .vue-3 .phare-droit{height:11%;width:6.5%;
+    position: absolute; top: 51%; left: 69%; z-index: 1;
+    transition-duration: 1.5s; transition-property: max-height; max-height: 1000px; transition-delay: 0.40s;
+    transition-timing-function: ease; transition: max-height 750ms 750ms ease-in;}
+  
+  .vue-3 .phare-droit:hover {top:300px; width:200px; max-height: 1000px;}
